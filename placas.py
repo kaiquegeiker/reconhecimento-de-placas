@@ -5,7 +5,7 @@ import datetime
 import os
 
 # RTSP do DVR (troque pelos seus dados)
-RTSP_URL = "rtsp://admin:186515Bb@192.168.100.4:554/cam/realmonitor?channel=1&subtype=0"
+RTSP_URL = "rtsp://admin:(SUA SENHA AQUI)@(IP DO DVR AQUI):554/cam/realmonitor?channel=1&subtype=0"
 
 # Inicializa leitor de OCR
 ocr = easyocr.Reader(['en'])
